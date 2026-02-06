@@ -1,39 +1,43 @@
-# KaliPassGuard
-Password Strength Tester Tool for Kali Linux
-# KaliPassGuard - Password Strength Tester Tool for Kali Linux
+# KaliPassGuard 🔐
 
-KaliPassGuard is a custom ethical cybersecurity tool developed in Python 3
-for Kali Linux users to test and evaluate password strength.
-
-This tool is designed to help students, penetration testers, and security
-professionals understand how strong or weak a password is based on common
-security rules used in real-world environments.
+KaliPassGuard is a beginner-friendly ethical cybersecurity tool built in Python 3 for Kali Linux.  
+It helps users test password strength and improve password security practices.
 
 ---
 
-## 🔥 Key Features
+## 🚀 Features
 
-- Fully CLI-based tool (works in Kali Linux terminal)
-- Built using Python 3 with modular and clean design
-- Uses argparse for professional command-line argument handling
-- Provides colored output for better readability
-- Displays a progress bar during password analysis
-- Evaluates password strength based on:
-  - Minimum length requirements
-  - Uppercase letters (A-Z)
-  - Lowercase letters (a-z)
-  - Numbers (0-9)
-  - Special symbols (!@#$%^&*)
-- Calculates password entropy (randomness score)
-- Gives improvement suggestions for weak passwords
-- Automatically saves results into a TXT report file
-- Includes banner, version information, and help menu
+- ✅ Password Strength Tester (Weak / Medium / Strong)
+- ✅ CLI Based Tool (Works fully in Kali Terminal)
+- ✅ Colored Output for Better Readability
+- ✅ Progress Bar Simulation
+- ✅ Saves Results Automatically to TXT Reports
+- ✅ Argument Parser with Help Menu (`-h`)
+- ✅ Version Information Support
+- ✅ Modular and Well-Commented Code
 
 ---
 
-## 🛠 Required Libraries
+## 🛠 Requirements
 
-Install dependencies before running:
+KaliPassGuard uses only standard Python libraries:
+
+- Python 3.x
+- argparse
+- time
+- sys
+- datetime
+
+(Optional)
+
+- cracklib-runtime (for dictionary password checking)
+
+---
+
+## 📥 Installation
+
+Clone the repository:
 
 ```bash
-pip3 install colorama tqdm
+git clone https://github.com/yourusername/KaliPassGuard.git
+cd KaliPassGuard
